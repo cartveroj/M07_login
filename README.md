@@ -19,6 +19,7 @@ Dades alumnat/professorat que han d’estar al formulari:
 
 **RESPOSTA EXECUCIÓ**
 
+<<<<<<< HEAD
 **Veronica**
 ![imagen_ejecucion](img/ejecucion_ejercicio.png)  
 
@@ -32,3 +33,10 @@ Dades alumnat/professorat que han d’estar al formulari:
 ![imagen_respuesta](img/confirmacion_conexion_ingreso_ang.png)
 
 ![imagen_baseDatos](/img/ingresobd_ang.png)
+=======
+![imagen_ejecucion]("./img/ejecucion_ejercicio.png)
+
+![imagen_respuesta]("./img/respuesta_ejercicio.png)
+
+![imagen_baseDatos]("./img/base_datos_ejercicio.png)
+>>>>>>> 653538b6ce3f5b9034c2f4acdffe31540ad4be83

@@ -1,8 +1,5 @@
-
-
-
 <?php
-$db_host = "localhost";
+$db_host = "localhost";//realizando conexion 
 $db_usuario = "root";
 $db_passwd = "";
 $db_nombre = "user";
@@ -15,23 +12,25 @@ if ($mysqli->connect_errno) {
     echo "Conectado exitosamente";
 }
 
-$consulta= "SELECT id, rol, name, surname, password, email, active FROM user";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $id = $_POST['id'];
+    $rol = $_POST['rol'];
+    $name = $_POST['name'];
+    $surname = $_POST['surname'];
+    $password = $_POST['password'];
+    $email = $_POST['email'];
+    $active = isset($_POST['active']) ? 1 : 0; // Si el checkbox está marcado, asigna 1, de lo contrario, asigna 0.
 
 
-$id= $_POST['id'];
-$rol= $_POST['rol'];
-$name= $_POST['name'];
-$surname= $_POST['surname'];
-$password= $_POST['password'];
-$email= $_POST['email'];
-$active = $_POST['active'];
+    $consulta = "INSERT INTO users (id, rol, name, surname, password, email, active) 
+                VALUES ($id, '$rol', '$name', '$surname', '$password', '$email', $active)";//insercion de datos
 
-echo $id. "<br>";
-echo $rol. "<br>";
-echo $name. "<br>";
-echo $surname. "<br>";
-echo $password. "<br>";
-echo $email. "<br>";
-echo $active. "<br>";
+    if ($mysqli->query($consulta) === TRUE) {//condicionales para cuando se ingresen los datos
+        printf("Se creó con éxito el registro en la tabla users.\n");
+    } else {
+        echo "Error en la inserción: " . $mysqli->error;
+    }
 
+}
+$mysqli->close();
 ?>

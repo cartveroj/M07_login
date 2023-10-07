@@ -21,13 +21,16 @@ Dades alumnat/professorat que han d’estar al formulari:
 
 
 **Veronica**
+
 ![imagen_ejecucion](img/ejecucion_ejercicio.png)  
 
 ![imagen_respuesta](img/respuesta_ejercicio.png)
 
 ![imagen_baseDatos](/img/base_datos_ejercicio.png)
 
+
 **Angelo**
+
 ![imagen_ejecucion](img/ingreso_form_ang.png)  
 
 ![imagen_respuesta](img/confirmacion_conexion_ingreso_ang.png)

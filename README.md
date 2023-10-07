@@ -19,8 +19,8 @@ Dades alumnat/professorat que han d’estar al formulari:
 
 **RESPOSTA EXECUCIÓ**
 
-![imagen_ejecucion]("./../veronica_P3/img/ejecucion_ejercicio.png)
+![imagen_ejecucion]("./img/ejecucion_ejercicio.png)
 
-![imagen_respuesta]("./../veronica_P3/img/respuesta_ejercicio.png)
+![imagen_respuesta]("./img/respuesta_ejercicio.png)
 
-![imagen_baseDatos]("./../veronica_P3/img/base_datos_ejercicio.png)
+![imagen_baseDatos]("./img/base_datos_ejercicio.png)

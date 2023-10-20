@@ -36,5 +36,6 @@ Les vistes (del la pàgina login, la pàgina inserció de dades i la pàgina de 
 ![imagen_loginError](img/loginError_veronica.png)
 
 **RESPOSTA EXECUCIÓ VIDEO**
+![video](img/veronica_P4_video.mp4)
 
 

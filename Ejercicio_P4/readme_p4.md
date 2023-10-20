@@ -66,6 +66,7 @@ Consultarà la informació introduïda a la pàgina de login per comprovar si l�
 
 
 *   **Angelo Montenegro**
+  
 ![imagen_ejecucion](img/registroUsuarioAlumno_angelo.png)
 
 ![imagen_ejecucion](img/incioSesionUsuarioAlumno_angelo.png)

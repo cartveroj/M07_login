@@ -1,28 +1,7 @@
 
-# Practica 4
-##Veronica Cartagena y Angelo Montenegro
-
-* **GITHUB**
-    * En el mateix repositori de nom **M07_login.**
-    * Treballar amb una branca de nom **nomalumne_P4**.
-    * A la branca, crear una carpeta amb nom de l’alumne/a i posar dintre els arxius de la pràctica.
-    * L’entrega de la pràctica és necessària per a que el professorat sigui conscient dels coneixements adquirits per part de l’alumnat. **(Es revisaran commits)**.
-    * **README**
-        * Ha d’haver-hi el contingut de **Feina Individual / Grupal.**
-        * Afegir les captures demanades (si s’escau) segons el que es demana a **Captures de pantalla.**
-
-* **VIDEO**
-    * Entregar d’un vídeo demostratiu on es mostrin les funcionalitats de la pràctica juntament amb les dades de les bases de dades. (Login + inserció de dades)
-
-* **ENTREGA**
-    * L’entrega es realitza abans d’acabar la classe.
-
-* **AVALUACIÓ**
-    * S’avalua segons rúbrica adjunta.
-    * Els errors de compilació resten 0,5 punt per error.
-    * No presentar el vídeo representa suspendre la pràctica.
-
-
+# ALTA USUARI AMB PHP I MYSQL 
+## Practica 4
+### Veronica Cartagena y Angelo Montenegro
 
 **ACTIVITAT**
 
@@ -62,7 +41,7 @@ Consultarà la informació introduïda a la pàgina de login per comprovar si l�
 ![imagen_loginError](img/loginError_veronica.png)
 
 **RESPOSTA EXECUCIÓ VIDEO**
-![video](img/veronica_P4_video.mp4)
+[link_video](https://drive.google.com/file/d/1Q-aON4X1V4khq_4lfSHnUgRlJNrT8_q9/view?usp=share_link)
 
 
 *   **Angelo Montenegro**

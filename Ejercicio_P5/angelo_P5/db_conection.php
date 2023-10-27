@@ -1,5 +1,5 @@
 <?php
-//realiza conexion con la BBDD
+//realiza conexion con la BBDD 
 $db_host = "localhost";
 $db_usuario = "root";
 $db_passwd = "";

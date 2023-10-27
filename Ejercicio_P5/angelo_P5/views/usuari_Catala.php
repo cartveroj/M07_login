@@ -1,4 +1,4 @@
-<?php
+<?php 
 include('../userLogin.php');
 //muestra datos en Catalan
 // Verifica si el rol es "alumnat" o "professorat"

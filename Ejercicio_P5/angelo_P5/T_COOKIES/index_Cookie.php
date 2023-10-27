@@ -20,7 +20,7 @@
             <td>Escull idioma</td><br>
         </tr>
         <tr>
-            <!--Muestra las imagenes a seleccionar para el idiomas-->
+            <!--Muestra las imagenes a seleccionar para el idiomas -->
             <td aling="center"><a href="creaCookie.php?idioma=es">
             <img src="img/spanish_flag.png" width="90" heigth="60"></a><h1>Español Spanish Espanyol</h1></td>
 

@@ -1,6 +1,6 @@
 <?php
 include('../userLogin.php');
-//muestra datos en ingles
+//muestra datos en ingles 
 // Verifica si el rol es "alumnat" o "professorat"
 if ($datos['rol'] == 'alumnat') { // Consulta para obtener nombre, apellido y email del alumno
     echo "I am a Student"."<br>";

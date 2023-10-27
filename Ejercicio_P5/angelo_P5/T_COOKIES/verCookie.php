@@ -1,4 +1,4 @@
-<!--Hace que se compruebe si la cookie a sido seleccionada y conforme no cambie sin que antes no haya sido eleminada, -->
+<!--Hace que se compruebe si la cookie a sido seleccionada y conforme  no cambie sin que antes no haya sido eleminada, -->
 <?php 
 if(isset($_COOKIE['sel_idioma'])) {
     $sel_idioma = $_COOKIE['sel_idioma'];

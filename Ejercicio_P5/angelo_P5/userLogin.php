@@ -1,5 +1,5 @@
 <?php
-//realiza las consultas
+//realiza las consultas 
 include('db_conection.php');
 
 //

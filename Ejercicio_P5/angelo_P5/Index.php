@@ -2,7 +2,7 @@
 /*
 Es el que crea un usuario con los datos de registro y lo envia a la base de datos y al terminar devuelve a index.html.
 */
-include('db_conection.php');
+include('db_conection.php'); 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = $_POST['id'];

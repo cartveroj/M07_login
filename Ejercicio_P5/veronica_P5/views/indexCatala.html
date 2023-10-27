@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form method="POST" action="../crear_user/index.php">
+        <div class="mb-3">
+            <label for="inputName" class="form-label">Id</label>
+            <input type="number" class="form-control" name="id" >
+        </div>
+        <div class="mb-3">
+            <label for="inputName" class="form-label">Nom</label>
+            <input type="text" class="form-control" name="name" >
+        </div>
+        <div class="mb-3">
+            <label for="inputSurname" class="form-label">Cognom</label>
+            <input type="text"  class="form-control" name="surName" >
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="text" class="form-control" name="email" >
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contrasenya</label>
+          <input type="password" class="form-control" name="password">
+        </div>
+        <select class="form-select" name="rol" aria-label="Default select example">
+            <option selected  value="">escull el teu rol</option>
+            <option value="teacher" >professor</option>
+            <option value="student" >estudiant</option>
+        </select>
+        <div class="mb-3 form-check">
+          <label class="form-label">El teu compte està activa ?</label>
+          <input type="checkbox" name="active" value="true">
+        </div>
+        <input type="submit" class="btn btn-primary" name="submit">
+        <br>
+          <br>
+          <a href="loginCatala.html">ja tens un compte</a>
+          <br>
+          <br>
+            <a href="../cookies/deleteCookie.php">Elimina la cookie</a>
+            <br>
+            <a href="../cookies/index.php">Escollir l' idioma</a>
+      </form>
+</body>
+</html>

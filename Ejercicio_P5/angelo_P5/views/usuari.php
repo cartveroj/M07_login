@@ -7,6 +7,7 @@ if ($datos['rol'] == 'alumnat') { // Consulta para obtener nombre, apellido y em
     echo "Nombre: " . $datos['name']."<br>";
     echo "Apellido: " . $datos['surname']."<br>";
     echo "Email: " . $datos['email']."<br>";
+    
 
 } elseif ($datos['rol'] == 'profesorat') {
     // Consulta para obtener nombre, apellido, correo y usuarios de los alumnos
@@ -15,10 +16,14 @@ if ($datos['rol'] == 'alumnat') { // Consulta para obtener nombre, apellido y em
         foreach(mysqli_query($mysqli, $sql_usuari) as $user){
            echo "Nombre y Apellido:    " . $user['name'] ." ". $user['surname'] ."<br>";
         }
-    
+        
 }
-
 
 // Cierra la conexión a la base de datos
 mysqli_close($mysqli);
 ?>
+<br>
+<br>
+<a href="../T_COOKIES/deleteCokie.php">Eliminar Galleta</a>
+<br>
+<a href="../T_COOKIES/index_Cookie.php">Volver a seleccion de idioma</a>

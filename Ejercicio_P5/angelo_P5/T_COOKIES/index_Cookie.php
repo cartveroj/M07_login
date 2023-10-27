@@ -21,24 +21,42 @@
         </tr>
         <tr>
             <td aling="center"><a href="creaCookie.php?idioma=es">
-            <img src="img/spanish_flag.png" width="90" heigth="60"></a><h1>Español-spanish-Espayol</h1></td>
+            <img src="img/spanish_flag.png" width="90" heigth="60"></a><h1>Español Spanish Espanyol</h1></td>
 
             <td aling="center"><a href="creaCookie.php?idioma=en">
-            <img src="img/english_flag.png" width="90" heigth="60"></a><h1>Ingles-English-Angles</h1></td>
+            <img src="img/english_flag.png" width="90" heigth="60"></a><h1>Ingles English Angles</h1></td>
 
             <td aling="center"><a href="creaCookie.php?idioma=cat">
-            <img src="img/catalan_flag.png" width="90" heigth="60"></a><h1>Catalán-Catala-Cstalan</h1></td>
+            <img src="img/catalan_flag.png" width="90" heigth="60"></a><h1>Catalán Catala Catalan</h1></td>
         </tr>
     </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     
 <?php 
     
     if($_COOKIE['sel_idioma']=='es'){
-        header('Location: views/index.html');
+        header('Location: ../views/index.html');
     }else if ($_COOKIE['sel_idioma']=='en'){
-        header('Location: views/index_Ingles.html');
+        header('Location: ../views/index_Ingles.html');
     }else if ($_COOKIE['sel_idioma']=='cat'){
-        header('Location: views/index_Catalan.html');
+        header('Location: ../views/index_Catalan.html');
     }
 ?>
 </body>

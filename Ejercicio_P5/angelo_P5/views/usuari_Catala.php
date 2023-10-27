@@ -22,3 +22,9 @@ if ($datos['rol'] == 'alumnat') { // Consulta para obtener nombre, apellido y em
 // Cierra la conexión a la base de datos
 mysqli_close($mysqli);
 ?>
+<br>
+<br>
+<a href="../T_COOKIES/deleteCokie.php">Eliminar Galleta</a>
+<br>
+<a href="../T_COOKIES/index_Cookie.php">Tornar a una selecció d'idioma</a>
+</body>

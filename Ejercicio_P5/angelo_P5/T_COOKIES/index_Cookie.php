@@ -20,6 +20,7 @@
             <td>Escull idioma</td><br>
         </tr>
         <tr>
+            <!--Muestra las imagenes a seleccionar para el idiomas -->
             <td aling="center"><a href="creaCookie.php?idioma=es">
             <img src="img/spanish_flag.png" width="90" heigth="60"></a><h1>Español Spanish Espanyol</h1></td>
 
@@ -31,24 +32,8 @@
         </tr>
     </table>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     
+    <!--Redirecciona alas paginas html segun correspnda del idioma-->
 <?php 
     
     if($_COOKIE['sel_idioma']=='es'){

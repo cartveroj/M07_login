@@ -8,25 +8,26 @@
 <body>
    
     <?php
+    /* Logica de php que segun el idioma selecciona redirige a la pagina correspondiente */
         if(isset($_COOKIE["idioma_seleccionado"])){
             if($_COOKIE["idioma_seleccionado"] == "es"){
-                header("Location: ../views/loginEspañol.html");
+                header("Location: ../views/login_Es.html");
             }else if($_COOKIE["idioma_seleccionado"] == "en"){
-                header("Location: ../views/login.html");
+                header("Location: ../views/login_En.html");
             }else if($_COOKIE["idioma_seleccionado"] == "ca"){
-                header("Location: ../views/loginCatala.html");
+                header("Location: ../views/login_Ca.html");
             }
         }
         
     ?>
-    <div class="title" style="display:flex; position: center;">
+    <div class="title" style="display: flex; justify-content: center; ">
         <h1>Selecciona un idioma</h1>
     </div>
     
     <table width="25" border="0" align="center">
         <tr>
             <td align="center">
-                <a href="crearCookies.php?idioma=es">
+                <a href="crearCookies.php?idioma=es"> <!-- enlace que redirige a la pagina crearCookies.php el parametro idioma con el valor 'es' -->
                     <img width="90" height="60" src="../img/español.png" alt="bandera español">
                     <h1>Español</h1>
                 </a>

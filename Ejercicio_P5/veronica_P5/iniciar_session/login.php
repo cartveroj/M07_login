@@ -8,7 +8,7 @@
     $dataUser;
     
     if(isset($_POST['submit'])){
-
+        $idioma_seleccionado = $_POST['idioma']; // recuperamos el valor del idioma predefinido en el formulario 
         $email = $_POST['email'];
         $password = $_POST['password'];
 
@@ -30,15 +30,31 @@
             session_start(); // almacenamos informacion
             $_SESSION['dataUser'] = $dataUser; //asignamos 
             $_SESSION['filaDataUsers'] = $filaDataUsers;
-            header('Location: ../views/user.php'); // redirigimos a user.php
 
+            
+            // redirigimos segun el idioma a las diferentes páginas
+            if($idioma_seleccionado =='es'){
+                header('Location: ../views/userEs.php');
+            } else if ($idioma_seleccionado=='en'){
+                header('Location: ../views/userEn.php') ;
+            } else if ($idioma_seleccionado=='ca'){
+                header('Location: ../views/userCa.php');
+            }
+     
        }else{
-        
-        include('../views/login.html');
-        echo 'Login incorrect';
+            // redirigimos segun el idioma a las diferentes páginas
+            if($idioma_seleccionado =='es'){
+                include('../views/login_Es.html');
+                echo 'Acceso incorrecto';
+            }else if($idioma_seleccionado =='en'){
+                include('../views/login_En.html');
+                echo 'Login incorrect';
+            }else if($idioma_seleccionado =='ca'){
+                include('../views/login_Ca.html');
+                echo 'Accés incorrecte';
+            }
        }
        
-      
-    
-       }
+    }
 ?>
+

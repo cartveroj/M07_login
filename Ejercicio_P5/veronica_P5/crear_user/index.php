@@ -5,6 +5,9 @@ include("../conection.php");
 
 
 if(isset($_POST['submit'])){
+
+    $idioma_seleccionado = $_POST['idioma']; // recuperamos el idioma del formulario
+
     $id = $_POST['id'];
     $name = $_POST['name'];
     $surName = $_POST['surName'];
@@ -25,20 +28,34 @@ if(isset($_POST['submit'])){
         print_r("No se dio de alta correctamente");
     }
 
-    
+    // redireccionamiento de pagina y mostramos unos valores segun el idioma 
+
+    if($idioma_seleccionado =='es'){
+        $title = "Hola ";
+        $path = "../views/login_Es.html";
+        $mensaje ="Tu cuenta fue creada correctamente";
+    }else if($idioma_seleccionado =='en'){
+        $title = "Welcome ";
+        $path = "../views/login_En.html";
+        $mensaje ="your account has been created";
+    }else if($idioma_seleccionado =='ca'){
+        $title = "Benvingut ";
+        $path = "../views/login_Ca.html";
+        $mensaje ="La teva compte s'ha creat correctament.";
+    }
 }
 
 
 ?>
 
 <!DOCTYPE html>
-        <html>
-        <head>
-            <title>Página HTML con PHP</title>
-        </head>
-        <body>
-            <h1>Welcome <?php echo $name; ?></h1>
-            <p>your account has been created:</p>
-            <a href="../views/login.html">Sing in</a>
-        </body>
-        </html>
+<html lang="en">
+    <head>
+        <title>Página HTML con PHP</title>
+    </head>
+    <body>
+        <h1><?php echo $title. $name; ?></h1>
+        <p><?php echo $mensaje?></p>
+        <a href=<?php echo $path?> >Sing in</a>
+    </body>
+</html>

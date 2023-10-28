@@ -32,6 +32,10 @@ Consultarà la informació introduïda a la pàgina de login per comprovar si l�
 **RESPOSTA EXECUCIÓ**
 *   **Veronica Cartagena**
 
+**EXECUCIÓ VIDEO**
+[link_video_Ejercicio_P4](https://drive.google.com/file/d/1Q-aON4X1V4khq_4lfSHnUgRlJNrT8_q9/view?usp=share_link)
+
+**EXECUCIÓ IMAGENES**
 ![imagen_ejecucion](img/login_veronica.png)
 
 ![imagen_respuesta](img/register_veronica.png)
@@ -40,12 +44,14 @@ Consultarà la informació introduïda a la pàgina de login per comprovar si l�
 
 ![imagen_loginError](img/loginError_veronica.png)
 
-**RESPOSTA EXECUCIÓ VIDEO**
-[link_video](https://drive.google.com/file/d/1Q-aON4X1V4khq_4lfSHnUgRlJNrT8_q9/view?usp=share_link)
 
 
-*   **Angelo Montenegro**
-  
+*  **Angelo Montenegro**
+
+**EXECUCIÓ VIDEO** :
+[link_video_Ejercicio_P4](https://drive.google.com/file/d/1pY1ZC3LCiW2hzg_zGZMDjw_A8hQi3aZ_/view)
+
+**EXECUCIÓ IMAGENES**
 ![imagen_ejecucion](img/registroUsuarioAlumno_angelo.png)
 
 ![imagen_ejecucion](img/incioSesionUsuarioAlumno_angelo.png)
@@ -56,5 +62,3 @@ Consultarà la informació introduïda a la pàgina de login per comprovar si l�
 
 ![imagen_loginError](img/muestra_pantalla_profesor_angelo.png)
 
-**RESPOSTA EXECUCIÓ VIDEO**
-![video](img/Funcionalidad_Practica4_Angelo.mp4)

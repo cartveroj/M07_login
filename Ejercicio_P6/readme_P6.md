@@ -18,4 +18,4 @@ La pàgina registra usuaris només la tindreu per si voleu afegir usuaris per a 
 [link_video_Ejercicio_P6](https://drive.google.com/file/d/1NgzlpnWvFWDnHJbubqMF5BHLyTMuHItG/view?usp=sharing)
 
 **Angelo Montenegro**
-[link_video_Ejercicio_P6](https://drive.google.com/file/d/1UbJH9Rn6GWJBiek2ZP9JuEZrz3C8debI/view?usp=sharing)
+[link_video_Ejercicio_P6](https://drive.google.com/file/d/1hb5kBqLuJFq5diRr3b-20LjqVuRDvVq9/view?usp=sharing)

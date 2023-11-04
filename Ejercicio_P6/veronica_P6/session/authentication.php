@@ -34,7 +34,7 @@
             $_SESSION['rol'] = $dataUser['rol']; //almacenamos el rol a session[rol]
             $_SESSION['surname'] = $dataUser['surname']; //almacenamos el apellido a session[surname]
             $_SESSION['email'] = $dataUser['email'];
-
+            $_SESSION['data'] = $dataUser;
             echo $_SESSION['data'];
             $_SESSION['filaDataUsers'] = $filaDataUsers;
             header('Location: ../views/user.php'); // redirigimos a user.php

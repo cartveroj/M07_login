@@ -19,7 +19,7 @@ $dataUser = $_SESSION['data'];
     <p><strong>Session started</strong></p>
     <p>Name: <?php echo $_SESSION['name']?></p>
     <p>Surname: <?php echo $_SESSION['surname']?></p>
-    
+    <p>Email: <?php echo $dataUser['email'] ?></p>
     <?php if ($_SESSION['rol'] == 'teacher'): ?>
         <p>List of users: </p>
         <?php foreach($filaDataUsers as $userList){?>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripcion</title>
+
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+
+    <form method="POST" action="../Index.php">
+        <div>
+            <label>Id</label><br>
+            <input type="text" name="id">
+        </div>
+
+        <div>
+            <label for="rol">Rol</label><br>
+            <select name="rol" id="rol">
+                <option value="alumnat">alumnat</option>
+                <option value="profesorat">professorat</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Name</label><br>
+            <input type="name" name="name">
+        </div>
+
+        <div>
+            <label>Surname</label><br>
+            <input type="text" name="surname">
+        </div>
+
+        <div>
+            <label>Password</label><br>
+            <input type="password" name="password">
+        </div>
+
+        <div>
+            <label>E-mail</label><br>
+            <input type="text" name="email">
+        </div>
+
+        <div>
+            <label>active</label><br>
+            <input type="checkbox" name="active">
+        </div>
+
+        <input type="submit" value="Submit"><br>
+        
+        
+    </form>
+    <br>
+    <a href="login.html">Iniciar Sesion</a> 
+      
+</body>
+</html>
